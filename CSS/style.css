@@ -3,10 +3,17 @@ header{
    
 }
 
+nav{
+    height: 70px;
+    
+}
+
+
+
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
-    
+    margin: 15px;
+          
 }
 
 nav a {
@@ -15,9 +22,12 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    position: relative;
+    margin-left: 200px;
+    top: 20px;
 
 }
 
 nav a:hover{
-    color:#f8bc62
+    color: #F89406
 }
