@@ -1,19 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+/* início menu*/
+
 header{
     background-color: #5BC0DE;
-   
+       
 }
 
 nav{
-    height: 70px;
-    
+    height: 70px;   
 }
 
 
 
 nav li{
     display: inline;
-    margin: 15px;
-          
+    margin: 15px;          
 }
 
 nav a {
@@ -29,5 +35,68 @@ nav a {
 }
 
 nav a:hover{
-    color: #F89406
+    color:#FFF457
 }
+
+/* fim menu*/
+
+
+body{
+    background: linear-gradient( #5BC0DE, #62C462);
+}
+
+/* inicio rodapé*/
+.rodape{
+    background-color:#62C462;
+    width: 100%;
+    border-radius: 8px; 
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: static;
+}
+/* fim rodapé*/
+
+
+
+/* inicio página home*/
+
+/* fim página home*/
+
+
+
+/* inicio página pratique*/
+
+/* fim página pratique*/
+
+
+
+/* inicio página contato*/
+img{
+    width: 180px;
+    height: 200px;
+}
+
+.fotopaginacontato{
+    display: flex; 
+    flex-flow: row; 
+    justify-content: space-between; 
+    width: 600px; 
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+form{
+    border: 10px solid #FFF457;
+    text-align: center;
+    margin:15px;
+    font-size:18px;
+    border-radius: 50px;
+    width: 1000px;
+    display:inline-block;
+    margin: 160px;
+    margin-top: 40px;
+}
+
+/* fim página contato*/
