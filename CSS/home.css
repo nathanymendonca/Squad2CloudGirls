@@ -92,11 +92,19 @@ strong{
     text-align: center;
   }
 
-.principal li{
+.principal .lihome{
 	display:inline-block;
 	line-height: 1.5;
 	margin: 10px 90px;
 	padding: 0.8em 0;
+  }
+
+  .classhome{
+	  font-size: 17px;
+	  color:rgb(0, 102, 204);
+	  text-decoration: underline;
+	  
+	  
   }
 
 ul{
