@@ -46,13 +46,13 @@ body{
 }
 
 /* inicio rodapé*/
-.rodape{
+.copyright{
     background-color:#62C462;
     width: 100%;
     border-radius: 8px; 
     height: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
     position: static;
 }
