@@ -1,0 +1,134 @@
+body{
+    background: linear-gradient( #5BC0DE, #62C462);
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	height: 200px;
+	text-align: center;
+	background-color: #5BC0DE;
+}
+
+.logo{
+	width: 150px;
+	margin-right: 80%;
+    border-radius: 150px;
+	margin: 0;
+	padding: 30px;
+}
+
+.banner{
+    display: flex; 
+    flex-flow: row; 
+    justify-content: space-between;
+	width: 600px;
+    height: 400px;
+
+    margin: 0 auto;
+	box-shadow: 10px 10px 10px 0 #000000;
+
+}
+
+h1{
+	color:#F89406;
+    font-weight: bold;
+	font-size: 33px;
+	text-shadow:0.1em 0.1em 0.2em black;
+    text-align: center;
+	padding: 0.5em 0;
+}
+
+p{
+	padding: 0.5em;
+	text-align: center;
+}
+
+strong{
+	font-weight: bold;
+}
+
+.principal ul{
+    text-align: center;
+  }
+
+.principal li{
+	display:inline-block;
+	line-height: 1.5;
+	margin: 10px 90px;
+	padding: 0.8em 0;
+  }
+
+ul{
+	list-style-type:none;
+	line-height:2;
+	padding-left: 0;
+  }
+
+h2{
+	color:#F89406;
+    font-weight: bold;
+	font-size: 28px;
+	text-shadow:0.1em 0.1em 0.2em black;
+    text-align: center;
+	padding: 1em 0;
+}
+
+.caracteristicas, .exigências, .contratar{
+	padding: 3em 0;
+}
+
+.conteudo{
+	width: auto;
+	margin: 0 auto;
+}
+
+.itens{
+	line-height: 1.5;
+}
+
+.itens:before{
+	content: "@ ";
+	font-weight: bold;
+}
+
+.itens2{
+	line-height: 1.5;
+}
+
+.itens2:before{
+	content: "# ";
+	font-weight: bold;
+}
+
+.listas{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;
+	padding: 0.5em;
+}
+
+.imagens{
+	width: 30%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.video{
+	width: 500px;
+	margin: 2em auto;
+}
+
+
+.copyright{
+    background-color:#62C462;
+    width: 100%;
+    border-radius: 8px; 
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    position: static;
+}
