@@ -5,17 +5,58 @@ body{
 
 header{
 	height: 200px;
-	text-align: center;
+
 	background-color: #5BC0DE;
 }
-
+/* 
 .logo{
 	width: 150px;
 	margin-right: 80%;
     border-radius: 150px;
 	margin: 0;
 	padding: 30px;
+} */
+
+
+/* início menu*/
+
+
+nav{
+    height: 220px;   
 }
+
+.logo{
+    height: 110px;
+    margin-left: 25px;
+     
+    
+}
+
+
+nav li{
+    display: inline;
+    margin: 15px;          
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    position: relative;
+    
+    top: 20px;
+
+}
+
+nav a:hover{
+    color:#FFF457
+}
+
+/* fim menu*/
+
+
 
 .banner{
     display: flex; 

@@ -6,15 +6,17 @@ padding: 0;
 
 /* início menu*/
 
-header{
-    background-color: #5BC0DE;
-       
-}
 
 nav{
-    height: 70px;   
+    height: 220px;   
 }
 
+.logo{
+    height: 110px;
+    margin-left: 25px;
+     
+    
+}
 
 
 nav li{
@@ -29,7 +31,7 @@ nav a {
     font-size: 22px;
     text-decoration: none;
     position: relative;
-    margin-left: 200px;
+    
     top: 20px;
 
 }
@@ -43,6 +45,7 @@ nav a:hover{
 
 body{
     background: linear-gradient( #5BC0DE, #62C462);
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* inicio rodapé*/
