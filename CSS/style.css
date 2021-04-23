@@ -88,18 +88,20 @@ img{
     width: 600px; 
     margin: 0 auto;
     margin-top: 80px;
+    
 }
 
 form{
     border: 10px solid #FFF457;
     text-align: center;
-    margin:15px;
     font-size:18px;
     border-radius: 50px;
     width: 1000px;
     display:inline-block;
-    margin: 160px;
+    margin: 180px;
     margin-top: 40px;
+    margin-left: 240px;
+    padding-top: 20px;
 }
 
 /* fim página contato*/
